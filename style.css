@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  padding: 0%;
+  margin: 0;
+  background: rgb(210, 197, 240);
+}
+header {
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-content {
+  margin-bottom: 15vmax;
+  margin-top: 15vw;
+
+  color: rgb(157, 130, 219);
+  text-align: center;
+}
+.gif {
+  margin-bottom: 150px;
+  text-align: center;
+}
+.sal{
+  margin-bottom: 150px;
+  margin-top: 100px;
+
+  color: rgb(157, 130, 219);
+  text-align: center;
+}
+.doc{
+  bottom: 10;
+  left: 0;
+  position: fixed;
+}
