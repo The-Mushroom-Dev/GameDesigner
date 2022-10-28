@@ -1,5 +1,6 @@
 <html lang="en">
   <head>
+    <script src="dragCanvas.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,10 +8,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
+    <div id="preloader">
+      <p>Loading</p>
+    </div>
+
+
     <div class="canvas">
       <canvas id="canvas"></canvas>
     </div>
-    <script src="main.js" type="module"></script>
 
     <div class="sidebar">
       <div class="name">
@@ -26,6 +32,15 @@
         <p id = "width"></p>
         <p id="height"></p>
       </div>
+      <img id="image">
+      <div class = "addImage">
+        <label class="custom-file-upload">
+          <input id = "imagine" type="file">
+          <i class="fa fa-cloud-upload"></i> Add a new sprite
+      </label>
+      </div>
     </div>
+    <script src="main.js" type="module"></script>
+
   </body>
 </html>
